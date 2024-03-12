@@ -240,6 +240,7 @@ def menu_tampilan():
             print("\n=======SORT DATA SEPATU========")
             sort_key = input("Pilih kriteria sorting (id/nama): ")
             pendataan.sort_data(sort_key)
+            print()
             pendataan.tampilkan_data()
             
 
